@@ -1,0 +1,29 @@
+body {
+	background-color	: #ffffff;
+	background-image	: url(/img/bg.gif); 
+	font-family			: verdana;
+	font-size			: 10px;
+	color				: #6b0008;
+	margin				: 0px 0px 0px 0px;
+}
+
+td {
+	font-family			: verdana;
+	font-size			: 10px;
+	color				: #6b0008;
+}
+
+a {
+	text-decoration		: underline;
+	color				: #6b0008;
+}
+
+a:visited {
+	text-decoration		: underline;
+	color				: #6b0008;
+}
+
+a:hover {
+	text-decoration		: underline;
+	color				: #6b0008;
+}
