@@ -1,7 +1,7 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" />
-
-<html>
+<!DOCTYPE html>
+<html lang="DA">
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title> =||| www.smagselv.dk |||= </title>
 	<link rel="stylesheet" type="text/css" href="/css/style_red.css" />
 </head>
@@ -31,15 +31,15 @@ if($what == "bestil"){
 }
 ?>
 	<br /><br />
-	Hvis du har spørgsmål kan jeg kontaktes på <a href="mailto:per@smagselv.dk">per@smagselv.dk</a>, 
-	på telefon 39 65 40 48 eller via almindelig post til adressen:
+	Hvis du har sp&oslash;rgsm&aring;l kan jeg kontaktes p&aring; <a href="mailto:per@smagselv.dk">per@smagselv.dk</a>, 
+	p&aring; telefon 39 65 40 48 eller via almindelig post til adressen:
 	<br /><br />
 	Plantagevej 21<br />
 	Vangede<br />
 	2820 Gentofte<br /><br /><br />
 	Med venlig hilsen
 	<br /><br />
-	Per Kæstel
+	Per K&aelig;stel
 	<br /><br />
 	<br /><br />
 	<a href="index.php">tilbage til forsiden</a>

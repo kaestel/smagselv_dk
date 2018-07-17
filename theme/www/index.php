@@ -1,7 +1,7 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" />
-
-<html>
+<!DOCTYPE html>
+<html lang="DA">
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title> =||| www.smagselv.dk |||= </title>
 	<link rel="stylesheet" type="text/css" href="/css/style_red.css" />
 </head>

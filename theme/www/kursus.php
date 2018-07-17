@@ -1,7 +1,7 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" />
-
-<html>
+<!DOCTYPE html>
+<html lang="DA">
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title> =||| www.smagselv.dk |||= </title>
 	<link rel="stylesheet" type="text/css" href="/css/style_red.css" />
 </head>
@@ -21,13 +21,10 @@
 </tr>
 <tr>
 	<form action="send.php" method="post" name="form">
-	<input type="hidden" name="what" value="bestil" />
+	<input type="hidden" name="what" value="kursus" />
 	<td><img src="img/dot_trans.gif" width="65" height="1" /></td>
-	<td>Smag selv – det har vi alle godt af<br /><br />
-	Prisen er kr, 98,- + porto (fordi kr. 100,- lyder af meget mere)
-	<br /><br />
-	Send en bestilling via nedenstående formular og du vi modtage bogen hurtigst muligt
-	med posten vedlagt girokort.
+	<td>Hvis du er interesseret i information om et Smag Selv kursus kan du sende mig en mail via nedenst&aring;ende formular
+	og jeg kontakter dig hurtigst.
 	<br /><br /><br />
 <?php
 error_reporting(0);
@@ -40,6 +37,7 @@ $postnr = $_GET["postnr"];
 $by = $_GET["by"];
 $email = $_GET["email"];
 $telefon = $_GET["telefon"];
+
 
 if($message != ""){
 	PRINT $message."<br /><br />";
