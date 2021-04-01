@@ -48,7 +48,7 @@ if( $what == "bestil" || $what == "kursus") {
 
 			$mail->SetFrom('mailer@think.dk', 'Think Postmaster');
 			$mail->AddAddress("martin@think.dk");
-			// $mail->AddAddress("per@kaestel.dk");
+			$mail->AddAddress("per@kaestel.dk");
 
 			$mail->Body = "$title\n\n$navn\n$adresse1\n$adresse2\n$postnr $by\n\n$email\n$telefon";
 			//$mail->MsgHTML($message);
