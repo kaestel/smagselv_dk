@@ -32,7 +32,7 @@ if($what == "bestil"){
 ?>
 	<br /><br />
 	Hvis du har sp&oslash;rgsm&aring;l kan jeg kontaktes p&aring; <a href="mailto:per@smagselv.dk">per@smagselv.dk</a>, 
-	p&aring; telefon 39 65 40 48
+	p&aring; telefon 39 65 40 48.
 	<br /><br /><br />
 	Med venlig hilsen
 	<br /><br />
