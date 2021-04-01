@@ -1,5 +1,7 @@
 <?php
 error_reporting(0);
+include("../config/connect_mail.php");
+
 $what = $_POST["what"];
 
 $navn = $_POST["navn"];
@@ -37,11 +39,12 @@ if( $what == "bestil" || $what == "kursus") {
 			$mail->IsSMTP();
 
 			$mail->SMTPAuth   = true;
-			$mail->SMTPSecure = "ssl";
+			$mail->SMTPSecure = "tls";
 			$mail->Host       = "smtp.gmail.com";
-			$mail->Port       = 465;
-			$mail->Username   = "mailer@think.dk";
-			$mail->Password   = "mi8y6td";
+			$mail->Port       = 587;
+
+			$mail->Username   = MAIL_USER;
+			$mail->Password   = MAIL_PASS;
 
 			$mail->SetFrom('mailer@think.dk', 'Think Postmaster');
 			$mail->AddAddress("martin@think.dk");
@@ -50,7 +53,9 @@ if( $what == "bestil" || $what == "kursus") {
 			$mail->Body = "$title\n\n$navn\n$adresse1\n$adresse2\n$postnr $by\n\n$email\n$telefon";
 			//$mail->MsgHTML($message);
 
-			if($mail->Send()) {
+			$test = $mail->Send();
+
+			if($test) {
 				$result = 1;
 			}
 			else {
