@@ -15,7 +15,7 @@ $telefon = $_POST["telefon"];
 if($what == "bestil"){
 	$title = "Bogbestilling";
 }else{
-	$title = "Kursus information &oslash;nskes";
+	$title = "Kursus information ønskes";
 }
 
 if( $what == "bestil" || $what == "kursus") {

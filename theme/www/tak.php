@@ -32,11 +32,8 @@ if($what == "bestil"){
 ?>
 	<br /><br />
 	Hvis du har sp&oslash;rgsm&aring;l kan jeg kontaktes p&aring; <a href="mailto:per@smagselv.dk">per@smagselv.dk</a>, 
-	p&aring; telefon 39 65 40 48 eller via almindelig post til adressen:
-	<br /><br />
-	Plantagevej 21<br />
-	Vangede<br />
-	2820 Gentofte<br /><br /><br />
+	p&aring; telefon 39 65 40 48
+	<br /><br /><br />
 	Med venlig hilsen
 	<br /><br />
 	Per K&aelig;stel
