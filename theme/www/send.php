@@ -46,7 +46,7 @@ if( $what == "bestil" || $what == "kursus") {
 			$mail->Username   = MAIL_USER;
 			$mail->Password   = MAIL_PASS;
 
-			$mail->SetFrom('mailer@think.dk', 'Think Postmaster');
+			$mail->SetFrom('mailer@kaestel.dk', 'Kæstel Postmaster');
 			$mail->AddAddress("martin@think.dk");
 			$mail->AddAddress("per@kaestel.dk");
 
