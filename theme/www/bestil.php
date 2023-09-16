@@ -42,23 +42,23 @@ $email = $_GET["email"];
 $telefon = $_GET["telefon"];
 
 if($message != ""){
-	PRINT $message."<br /><br />";
+	PRINT "<strong>".$message."</strong><br /><br />";
 }
 ?>
-	Navn:<br />
+	Navn *<br />
 	<input type="text" name="navn" style="width:400px;" value="<?php PRINT $navn; ?>" />
 	<br /><br />
-	Adresse:<br />
+	Adresse *<br />
 	<input type="text" name="adresse1" style="width:400px;" value="<?php PRINT $adresse1; ?>" />
 	<input type="text" name="adresse2" style="width:400px;" value="<?php PRINT $adresse2; ?>" />
 	<br /><br />
-	Postnr og by:<br />
+	Postnr og by *<br />
 	<input type="text" name="postnr" style="width:50px;" value="<?php PRINT $postnr; ?>" />&nbsp;<input type="text" name="by" style="width:345px;" value="<?php PRINT $by; ?>" />
 	<br /><br />
-	Email:<br />
+	Email *<br />
 	<input type="text" name="email" style="width:400px;" value="<?php PRINT $email; ?>" />
 	<br /><br />
-	Telefon:<br />
+	Telefon *<br />
 	<input type="text" name="telefon" style="width:400px;" value="<?php PRINT $telefon; ?>" />
 	<br /><br />
 	<a href="javascript:document.form.submit();">send</a>&nbsp;&nbsp;<a href="index.php">fortryd</a>

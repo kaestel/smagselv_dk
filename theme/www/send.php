@@ -1,4 +1,8 @@
 <?php
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
 error_reporting(0);
 include("../config/connect_mail.php");
 
@@ -26,9 +30,14 @@ if( $what == "bestil" || $what == "kursus") {
 		if(($adresse1 != "" && $postnr != "" && $by != "") || ($email != "") ||($telefon != "")){
 
 
+
+			require 'php/Exception.php';
+			require 'php/PHPMailer.php';
+			require 'php/SMTP.php';
+
 			//$result = mail("per@kaestel.dk", $title, "$title\n\n$navn\n$adresse1\n$adresse2\n$postnr $by\n\n$email\n$telefon");
 
-			include("php/class.phpmailer.php");
+			// include("php/class.phpmailer.php");
 
 			$mail             = new PHPMailer();
 			$mail->Subject    = $title;
@@ -48,7 +57,7 @@ if( $what == "bestil" || $what == "kursus") {
 
 			$mail->SetFrom('mailer@kaestel.dk', 'Kæstel Postmaster');
 			$mail->AddAddress("martin@think.dk");
-			$mail->AddAddress("per@kaestel.dk");
+			// $mail->AddAddress("per@kaestel.dk");
 
 			$mail->Body = "$title\n\n$navn\n$adresse1\n$adresse2\n$postnr $by\n\n$email\n$telefon";
 			//$mail->MsgHTML($message);
